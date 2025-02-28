@@ -1,9 +1,9 @@
 {
   "name": "todoself",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Adi-2006.github.io/todo_app",
+  "homepage": "https://Adi-2006.github.io/todo-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
