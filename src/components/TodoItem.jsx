@@ -31,8 +31,8 @@ const TodoItem = ({ todo }) => {
         </div>
       ) : (
         <>
-        <div className="flex items-center gap-2  justify-between flex-wrap">
-          <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center  w-full  justify-around flex-wrap">
+          <div className="flex flex-wrap items-center justify-center gap-2">
             <input
               type="checkbox"
               checked={todo.completed}
@@ -44,7 +44,7 @@ const TodoItem = ({ todo }) => {
             </span>
             <small className="dark:text-gray-300 text-gray-700  ">{getElapsedTime(todo.timestamp)}</small>
           </div>
-          <div className="flex space-x-2">
+          <div className="flex  space-x-2">
             <button onClick={() => setIsEditing(true)} className="text-blue-500 hover:text-blue-700">
               ✏️
             </button>
